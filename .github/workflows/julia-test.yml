@@ -1,0 +1,14 @@
+name: Test
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - name: Install dependencies
+      run: |
+        julia --color=yes --project=docs/ docs/make.jl
