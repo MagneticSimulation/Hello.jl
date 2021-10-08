@@ -10,6 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2.3.4
-    - name: Build docs
+    - name: Test
       run: |
-        julia --color=yes --project=docs/ docs/make.jl
+        julia --project -e 'using Pkg;  Pkg.test(;coverage=true);'
