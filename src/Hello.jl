@@ -40,4 +40,5 @@ greet() = print("Hello World!")
 
 add(a,b) = a+b
 
+add(a, b, c) = a+b+c
 end # module
