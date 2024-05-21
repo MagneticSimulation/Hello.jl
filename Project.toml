@@ -3,8 +3,6 @@ uuid = "74db4048-4eb6-11e9-1e38-93c4da6edecd"
 authors = ["Weiwei Wang <wangweiwei@ahu.edu.cn>"]
 version = "0.1.0"
 
-[deps]
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
