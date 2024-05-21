@@ -9,7 +9,8 @@ makedocs(
     modules = [Hello],
     pages = Any[
         "notes.md",
-        "index.md"
+        "index.md",
+        "equations.md"
         ]
 )
 
