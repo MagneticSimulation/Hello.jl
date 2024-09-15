@@ -15,5 +15,5 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/ww1g11/Hello.jl"
+    repo = "github.com/MagneticSimulation/Hello.jl"
 )
